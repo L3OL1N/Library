@@ -17,14 +17,14 @@
             <div id="library"></div>
             <form id="input" class="input" name="input">
                 <label for="title">title</label>
-                <input type="text" name="title" id="title">
+                <input type="text" name="title" id="title" required minlength="1">
                 <label for="author">author</label>
                 <input type="text" name="author" id="author">
                 <label for="pages">pages</label>
                 <input type="number" name="pages" id="pages">
                 <input type="radio" name="read" id="ture" value="ture">
                 <label for="ture">Read</label>
-                <input type="radio" name="read" id="false" value="false">
+                <input type="radio" name="read" id="false" value="false" checked>
                 <label for="false">Unread</label>
                 <input type="button" value="sumit" id="sumit">
             </form>

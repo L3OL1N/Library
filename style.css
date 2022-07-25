@@ -22,6 +22,7 @@ body main #wrap #library {
   text-align: left;
   line-height: 1.5;
   word-spacing: 1px;
+  position: relative;
 }
 body main #wrap #library p {
   display: inline;
@@ -31,14 +32,23 @@ body main #wrap #library p.line {
   display: block;
 }
 body main #wrap #library button {
+  position: absolute;
   cursor: pointer;
+  left: 450px;
 }
 body main #wrap #library button.read {
-  margin-left: 45%;
-  background-color: red;
+  left: 195px;
+  margin-left: 37%;
   padding: 3px 10px;
   border: none;
   border-radius: 3px;
+}
+body main #wrap #library button.read[data-read=ture] {
+  background-color: greenyellow;
+}
+body main #wrap #library button.read[data-read=false] {
+  background-color: red;
+  margin-left: 35%;
 }
 body main #wrap .input {
   display: none;

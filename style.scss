@@ -20,6 +20,7 @@ body{
                 text-align: left;
                 line-height: 1.5;
                 word-spacing: 1px;
+                position: relative;
                 p{
                     display: inline;
                     margin: 10px 0;
@@ -28,13 +29,22 @@ body{
                     }
                 }
                 button{
+                    position: absolute;
                     cursor: pointer;
+                    left: 450px;
                     &.read{
-                        margin-left: 45%;
-                        background-color: red;
+                        left: 195px;
+                        margin-left: 37%;
                         padding: 3px 10px;
                         border: none;
                         border-radius: 3px;
+                        &[data-read="ture"]{
+                            background-color: greenyellow;
+                        }
+                        &[data-read="false"]{
+                            background-color: red;
+                            margin-left: 35%;
+                        }
                     }
                 }
             }
