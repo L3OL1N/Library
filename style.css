@@ -1,1 +1,65 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  text-align: center;
+}
+body main {
+  width: 80vw;
+  margin: 0 auto;
+}
+body main #wrap {
+  position: relative;
+}
+body main #wrap #Add {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+body main #wrap #library {
+  height: 500px;
+  width: 500px;
+  outline: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 15px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.5;
+  word-spacing: 1px;
+}
+body main #wrap #library p {
+  display: inline;
+  margin: 10px 0;
+}
+body main #wrap #library p.line {
+  display: block;
+}
+body main #wrap #library button {
+  cursor: pointer;
+}
+body main #wrap #library button.read {
+  margin-left: 45%;
+  background-color: red;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 3px;
+}
+body main #wrap .input {
+  display: none;
+  position: absolute;
+  width: 150px;
+  height: 300px;
+  top: 50px;
+  left: 45%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+}
+body main #wrap .input * {
+  margin-bottom: 10px;
+}
+body main #wrap .input input {
+  width: 80%;
+}
+body main #wrap .input input[type=radio] {
+  width: auto;
+}
+body main #wrap .input input[type=button] {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

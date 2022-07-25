@@ -8,9 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>Livbrary</h1></header>
+    <header><h1>Library</h1></header>
     <main>
         <div id="wrap">
+            <button id="Add">Add</button>
+            <button id="delete">Delete</button>
+            <!-- <button id="show">show</button> -->
+            <div id="library"></div>
+            <form id="input" class="input" name="input">
+                <label for="title">title</label>
+                <input type="text" name="title" id="title">
+                <label for="author">author</label>
+                <input type="text" name="author" id="author">
+                <label for="pages">pages</label>
+                <input type="number" name="pages" id="pages">
+                <input type="radio" name="read" id="ture" value="ture">
+                <label for="ture">Read</label>
+                <input type="radio" name="read" id="false" value="false">
+                <label for="false">Unread</label>
+                <input type="button" value="sumit" id="sumit">
+            </form>
         </div>
     </main> 
     <script src="Library.js"></script>

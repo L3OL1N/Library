@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    
+    main{
+    width: 80vw;
+    margin: 0 auto;
+        #wrap{
+            position: relative;
+            #Add{
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            #library{
+                height: 500px;
+                width: 500px;
+                outline: 1px solid black;
+                border-radius: 5px;
+                padding: 20px 15px;
+                margin: 0 auto;
+                text-align: left;
+                line-height: 1.5;
+                word-spacing: 1px;
+                p{
+                    display: inline;
+                    margin: 10px 0;
+                    &.line{
+                        display: block;
+                    }
+                }
+                button{
+                    cursor: pointer;
+                    &.read{
+                        margin-left: 45%;
+                        background-color: red;
+                        padding: 3px 10px;
+                        border: none;
+                        border-radius: 3px;
+                    }
+                }
+            }
+            .input{
+                display: none;
+                position: absolute;
+                width: 150px;
+                height: 300px;
+                top: 50px;
+                left: 45%;
+                border: 1px solid black;
+                border-radius: 5px;
+                background: white;
+                *{
+                    margin-bottom: 10px;
+                }
+                input{
+                    width: 80%;
+                    &[type="radio"]{
+                        width: auto;
+                    }
+                    &[type="button"]{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+        
+}
